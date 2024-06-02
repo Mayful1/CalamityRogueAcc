@@ -53,8 +53,8 @@ namespace CalamityRogueAcc.Content.Items.Accessories
                 .AddIngredient<ElectriciansGlove>()
                 .AddIngredient<GloveOfRecklessness>()
                 .AddIngredient<GloveOfPrecision>()
-                .AddIngredient<CosmiliteBar>()
-                .AddIngredient<GalacticaSingularity>()
+                .AddIngredient<CosmiliteBar>(10)
+                .AddIngredient<GalacticaSingularity>(5)
                 .AddTile<CosmicAnvil>()
                 .Register();
         }
